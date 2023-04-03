@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_MESSAGE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Message handler class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <WITH_UNIT_TESTS>X</WITH_UNIT_TESTS>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>U01</KEY>
+     <ENTRY>Invalid message type generated</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>U06</KEY>
+     <ENTRY>Test Message</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_APLOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return the message using the Application Log structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_BAPIRET2</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return the message using the BAPIRET2 structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_BAPIRETURN</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return the message using the BAPIRETURN structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_LONG_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read the long text of the message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_MESSAGE_OBJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Identify the message object to be processed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SYST_VARIABLES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Fill the system variables (SYST) with the message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_T100KEY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return the message using the T100KEY structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_ERROR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Is the message an error message?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_INFO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Is the message an information message?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_SUCCESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Is the message a success message?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_WARNING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Is the message a warning message?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>NEW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Factory method for the Message object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>NEW_E</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Factory method for free text error message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>NEW_I</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Factory method for free text information message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>NEW_S</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Factory method for free text success message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>NEW_W</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Factory method for free text warning message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SHOW_PROGRESS_INDICATOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display a progress indicator using the message text</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
